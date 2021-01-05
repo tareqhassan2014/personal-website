@@ -1,18 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
-*{
-    font-size: 62.5%;
-}
 body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
 }
 
+
+                                /************* Utility-Classes ****************/
+.btn{
+    background: linear-gradient(90deg, #FC5E51 -0.03%, #F59E75 100.02%);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.half-width{
+    border: 2px solid;
+    height: 95%;
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    padding-left: 2% ;
+}
+img{
+    height: 100%;
+}
+
+
+
                                 /************* Navigation_bar *************/
 
 ul{
     list-style-type: none;
-    margin: 3.7rem  auto;
+    margin: 37px  auto;
     padding: 0;
     overflow: hidden;
     max-width: 1100px;
@@ -26,11 +46,11 @@ li a{
     display: block;
     color: #3C3C3C;
     text-align: center;
-    padding: 1.4rem 1.6rem;
+    padding: 14px 16px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 12px;
     border-radius: 3px;
 }
 li a:hover:not(.active) {
@@ -40,4 +60,19 @@ li a:hover:not(.active) {
 li a.active {
     color: white;
     background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+}
+
+                        /************* SECTION_1 ***************/
+section{
+    overflow: hidden;
+    height: 500px;
+}
+.half-width h1,.half-width h2{
+    font-family: Bebas Neue;
+    color: #363958;
+    font-size: 80px;
+    line-height: 10px;
+}
+.half-width h1{
+    color: #F46060;
 }
