@@ -3,6 +3,7 @@
 body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -25,7 +26,11 @@ body{
 img{
     height: 100%;
 }
-
+section{
+    overflow: hidden;
+    height: 500px;
+    border: 2px solid red;
+}
 
 
                                 /************* Navigation_bar *************/
@@ -63,16 +68,101 @@ li a.active {
 }
 
                         /************* SECTION_1 ***************/
-section{
-    overflow: hidden;
-    height: 500px;
-}
-.half-width h1,.half-width h2{
+
+.section_1 .half-width h1, .section_1 .half-width h2{
     font-family: Bebas Neue;
     color: #363958;
     font-size: 80px;
     line-height: 10px;
 }
-.half-width h1{
+.section_1 .half-width h1{
     color: #F46060;
+}
+                        /************* SECTION_3 ***************/
+.section_3{
+    background: #E5E5E5;
+    height: 710px;
+}
+.section_3 h2{
+    text-align: center;
+    font-family: Bebas Neue;
+    color: #363958;
+    font-size: 40px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.section_3 h2 span{
+    color: #FF8367;
+}
+.width33{
+    float: left;
+    width: 370px;
+    height: 374px;
+    background: #FFFFFF;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+    border: 2px solid red;
+    margin-left: 50px ;
+}
+.width33 img{
+    width: 343.54px;
+    height: 213.23px;
+}
+.width33 h3, .width33 p{
+    margin-left: 10px;
+    line-height: 28px;
+}
+
+                    /************* SECTION_4 ***************/
+.section_4{
+    height: 645px;
+    border: 2px solid black;
+}
+.fd1{
+    background-image: url("./images/Group_33094_1.png");
+    background-size: cover;
+    width: 906px;
+    height: 225px;
+    margin: 90px auto;
+}
+.fd1 h2{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin:  80px 125px;
+    float: left;
+}
+.fd1 a{
+    float: right;
+    margin:  100px 125px;
+}
+
+.fd2{
+    border: 2px solid red;
+    text-align: center;
+}
+.fd2 p{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #696871;
+}
+.fd2 h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+}
+.fd2 img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
 }
